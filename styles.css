@@ -1,0 +1,178 @@
+html {
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+body {
+    background-color: #72684f;
+}
+
+
+/*buttons*/
+
+button {
+    background-color: #ff6e05 !important;
+    color: white !important;
+    border: none;
+}
+
+
+/* navbars */
+
+nav {
+    font-style: bold;
+    text-align: center;
+    color: #72684f !important;
+    background-color: #ffe68e;
+}
+
+.navbar-brand {
+    font-style: bold;
+    text-align: center;
+    color: #72684f !important;
+}
+
+.nav-link,
+.navbar-link,
+.navbar-brand.linked {
+    font-size: large;
+    color: #72684f !important;
+}
+
+.nav-link.active {
+    color: #ff6e05 !important;
+}
+
+.nav-link:hover,
+.navbar-link:hover,
+.navbar-brand.linked:hover {
+    color: #ff6e05 !important;
+    text-decoration: none;
+}
+
+
+/* index.html */
+
+.row.index {
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.inscription {
+    font-size: 2em;
+    color: #ffe68e
+}
+
+.card.not-main {
+    background-color: white;
+    height: 100%;
+}
+
+
+/* record.html */
+
+.form-row {
+    margin: auto;
+    width: 400px;
+}
+
+.container-record {
+    padding: 20px;
+    border-radius: 5%;
+    background-color: #ffe68e;
+}
+
+label,
+option {
+    color: #72684f;
+}
+
+input,
+textarea {
+    color: #72684f !important;
+}
+
+select {
+    color: #72684f !important;
+}
+
+
+/* timetable.html */
+
+th {
+    padding: 10px;
+    border: 1px solid #72684f;
+    min-width: 150px;
+    background-color: white;
+    color: #72684f
+}
+
+td {
+    font-size: 1em;
+    padding: 5px 7px;
+    border: 1px solid #72684f;
+    height: 50px;
+    background-color: white;
+    color: #72684f
+}
+
+td.date {
+    text-align: center;
+    background-color: #ffe68e;
+}
+
+.table-box {
+    width: 80%;
+    margin: auto;
+}
+
+.table-box p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+thead {
+    border: 1px solid #ccc;
+}
+
+td:nth-last-child(-n+2) {
+    text-align: center;
+}
+
+@media screen and (max-width: 732px) {
+    .table-box {
+        overflow-x: scroll;
+    }
+}
+
+
+/* spares.html */
+
+.col-md-8 {
+    color: #72684f !important;
+}
+
+.col-sm-2 {
+    align-self: center;
+}
+
+h1 {
+    color: #72684f;
+    height: 70px;
+    width: 150px;
+    margin: auto;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
