@@ -8,6 +8,22 @@ body {
 }
 
 
+/*flexbox spares*/
+
+.my-flex-cont {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-flex-box {
+    margin: 20px;
+    padding: 5px;
+    flex: 0 1 auto;
+}
+
+
 /*buttons*/
 
 .btn {
