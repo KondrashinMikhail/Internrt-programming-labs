@@ -8,6 +8,22 @@ body {
 }
 
 
+/*flexbox*/
+
+.my-flex-cont {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-flex-box {
+    margin: 20px;
+    padding: 5px;
+    flex: 0 1 auto;
+}
+
+
 /*buttons*/
 
 .btn {
@@ -101,7 +117,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background: #FFC702;
+    background: #ffe68e;
 }
 
 .container.index:before {
@@ -115,7 +131,7 @@ h5 {
 .text {
     position: absolute;
     top: 20%;
-    color: white;
+    color: #72684f;
     text-align: center;
 }
 
